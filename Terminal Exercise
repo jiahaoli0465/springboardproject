@@ -1,0 +1,24 @@
+Part I
+1. mkdir first
+2. cd first
+3. touch person.txt
+4. mv person.txt another.txt
+5. cp another.txt copy.txt
+6. rm copy.txt
+7. cd ..
+cp -r first second
+8. rm -r second
+
+Part II
+1. man is manual, it shows a list of commands and operations you can use with the associated command. You score by pressing enter and you press q to get out
+2. the -a flag shows all, the -l flag use a long listing formula
+3. Use Ctrl + Left Arrow to move backward one word and Ctrl + Right Arrow to move forward one word.
+4. ctrl E
+5. ctrl A
+6. ctrl W
+7. terminal is a program that interacts wiht the shell, shell is a program that interprets and executes commands
+8. a complete path from the root directory to a specific file or directory. 
+9. A relative path is defined from the current directory
+10. is an argument given to a command to modify its behavior. ex... -l -r -f
+11. -r: Recursively removes directories and their contents.
+-f: Forces the removal without prompting for confirmation. 
