@@ -1,0 +1,16 @@
+- What ***git*** command creates a branch?
+  git branch <branch-name>
+  
+- What is the difference between a fast-forward and recursive merge?
+  Fast-forward Merge: This type of merge occurs when the current branch is directly behind the branch you're trying to merge. In this case, Git simply moves the current branch forward until it points to the same commit as the other branch. No new commit is created.
+  Recursive Merge: This type of merge is used when the histories of the two branches have diverged in some way, and there isn't a linear path from the current branch to the branch you're merging. Git will combine the divergent blocks of code into a new commit in this merge strategy.
+  
+- What ***git*** command changes to another branch?
+  git switch <branch-name>
+
+- What ***git*** command deletes a branch?
+  git branch -d <branch-name>
+  git branch -D <branch-name>
+
+- How do merge conflicts happen?
+  Merge conflicts occur when two branches have changes in the same part of a file and Git can't determine which change should take precedence
