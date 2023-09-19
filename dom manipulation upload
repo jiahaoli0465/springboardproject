@@ -1,0 +1,20 @@
+document.getElementById("container");
+document.querySelector("#container");
+document.querySelectorAll(".second")
+document.querySelector("ol .third");
+let hello = document.querySelector("#container");
+hello.innerText = "Hello";
+let footer = document.querySelector('.footer');
+footer.classList.add('main');
+footer.classList.remove('main');
+let newel = document.createElement('li');
+let list = document.querySelector('ul');
+list.appendChild(newel);
+let liIn = document.querySelectorAll("ol li");
+
+for(let i = 0; i < liIn.length; i++){
+    liInsideOl[i].style.backgroundColor = "green";
+}
+
+let footer = document.querySelector(".footer");
+footer.remove();
